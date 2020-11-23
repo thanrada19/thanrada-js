@@ -1,2 +1,2 @@
-let nickname = "Mind";
+let nickname = "Dream";
 console.log(nickname);
