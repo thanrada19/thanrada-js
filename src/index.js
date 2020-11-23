@@ -1,5 +1,13 @@
-const user = "A-Host";
-const message1 = "Hello, " + user;
-const message2 = `Hello, ${user}`;
-console.log(message1);
-console.log(message2);
+const studentA = {
+  name: "A",
+  score: 100
+};
+
+const name = studentA.name;
+const score = studentA.score;
+
+//const { name, score } = studentA;
+//const { name, score:myScore } = studentA;
+
+console.log(`${name} : ${score}`);
+//console.log(`${name} : ${myScore}`);
