@@ -1,4 +1,5 @@
-const add = (a, b) => a + b;
-const multiply = (a, b) => a * b;
-
-export { add, multiply };
+const user = "A-Host";
+const message1 = "Hello, " + user;
+const message2 = `Hello, ${user}`;
+console.log(message1);
+console.log(message2);
